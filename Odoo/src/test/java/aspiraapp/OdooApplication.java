@@ -36,6 +36,7 @@ public class OdooApplication {
     public void testOdooApplication() throws InterruptedException {
         System.out.println(timeStamp);
         driver.get("https://aspireapp.odoo.com/");
+        // Login
         driver.findElement(By.cssSelector("#login")).sendKeys("user@aspireapp.com");
         driver.findElement(By.cssSelector("#password")).sendKeys("@sp1r3app");
         driver.findElement(By.cssSelector("button.btn-primary")).click();
@@ -65,6 +66,7 @@ public class OdooApplication {
         Thread.sleep(3000);
         driver.findElement(By.xpath("//div[@name='product_id']//input")).sendKeys(Keys.ENTER);
         driver.findElement(By.xpath("//div[contains(@class, 'o_technical_modal')]//span[text()='Create']/parent::button")).click();
+
         Actions action = new Actions(driver);
         WebElement link = driver.findElement(By.xpath("//input[@name='product_uom_qty']"));
         action.doubleClick(link).perform();
