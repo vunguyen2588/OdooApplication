@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="34556" started-at="2022-01-19T07:08:38Z" finished-at="2022-01-19T07:09:12Z">
+    <groups>
+    </groups>
+    <test name="D:/05_Source/Odoo" duration-ms="34556" started-at="2022-01-19T07:08:38Z" finished-at="2022-01-19T07:09:12Z">
+      <class name="aspiraapp.OdooApplication">
+        <test-method status="PASS" signature="setup()[pri:0, instance:aspiraapp.OdooApplication@61dc03ce]" name="setup" is-config="true" duration-ms="11770" started-at="2022-01-19T07:08:38Z" finished-at="2022-01-19T07:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testOdooApplication()[pri:0, instance:aspiraapp.OdooApplication@61dc03ce]" name="testOdooApplication" duration-ms="21834" started-at="2022-01-19T07:08:49Z" finished-at="2022-01-19T07:09:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOdooApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aspiraapp.OdooApplication@61dc03ce]" name="tearDown" is-config="true" duration-ms="928" started-at="2022-01-19T07:09:11Z" finished-at="2022-01-19T07:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aspiraapp.OdooApplication -->
+    </test> <!-- D:/05_Source/Odoo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
