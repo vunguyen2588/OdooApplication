@@ -1,4 +1,0 @@
-# Created at 2022-01-19T17:21:33.893
-Boot Manifest-JAR contains absolute paths in classpath 'D:\00_QuangDung\OdooApplication\Odoo\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-
